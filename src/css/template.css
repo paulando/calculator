@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+.btn, .btn-white, .btn-blue, .btn-green, .btn-red {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  border: none;
+  height: 55px;
+  width: 55px;
+  font-size: 18px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: background-color 300ms ease-in-out;
+  -moz-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out; }
+  .btn:active, .btn-white:active, .btn-blue:active, .btn-green:active, .btn-red:active {
+    -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5); }
+  .btn:hover, .btn-white:hover, .btn-blue:hover, .btn-green:hover, .btn-red:hover, .btn:active, .btn-white:active, .btn-blue:active, .btn-green:active, .btn-red:active, .btn:focus, .btn-white:focus, .btn-blue:focus, .btn-green:focus, .btn-red:focus {
+    outline: none;
+    -webkit-transition: background-color 300ms ease-in-out;
+    -moz-transition: background-color 300ms ease-in-out;
+    transition: background-color 300ms ease-in-out; }
+
+.btn-white {
+  background-color: #FFF; }
+  .btn-white:hover {
+    background-color: #e6e6e6; }
+
+.btn-blue {
+  color: #FFF;
+  background-color: #48A4FF; }
+  .btn-blue:hover {
+    background-color: #158bff; }
+
+.btn-green {
+  color: #FFF;
+  background-color: #00D277; }
+  .btn-green:hover {
+    background-color: #009f5a; }
+
+.btn-red {
+  color: #FFF;
+  background-color: #FF625E; }
+  .btn-red:hover {
+    background-color: #ff302b; }
+
+.row {
+  display: block; }
+
+.col, .col-1, .col-2, .col-3, .col-4 {
+  display: block;
+  float: left; }
+
+.col-1 {
+  width: 25%; }
+
+.col-2 {
+  width: 50%; }
+
+.col-3 {
+  width: 75%; }
+
+.col-4 {
+  width: 100%; }
+
+#calculator {
+  width: 100%;
+  max-width: 300px;
+  margin: 50px auto 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  -webkit-box-shadow: 0px 0px 20px 5px #cccccc;
+  -moz-box-shadow: 0px 0px 20px 5px #cccccc;
+  box-shadow: 0px 0px 20px 5px #cccccc; }
+  #calculator .top {
+    overflow: hidden;
+    height: 100px;
+    color: #48A4FF;
+    padding: 0 15px;
+    text-align: right;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #FFF; }
+    #calculator .top #combination {
+      height: 40px;
+      line-height: 40px; }
+    #calculator .top #result {
+      height: 60px;
+      line-height: 60px;
+      font-size: 36px; }
+  #calculator .bottom {
+    overflow: hidden;
+    background-color: #234A79;
+    padding-top: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+    #calculator .bottom .col, #calculator .bottom .col-1, #calculator .bottom .col-2, #calculator .bottom .col-3, #calculator .bottom .col-4 {
+      text-align: center;
+      height: 75px; }
+    #calculator .bottom #zero {
+      width: 130px; }
+    #calculator .bottom #equal {
+      position: relative;
+      height: 130px;
+      bottom: 75px; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif; }

@@ -1,0 +1,47 @@
+.btn, .btn-white, .btn-blue, .btn-green, .btn-red {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  border: none;
+  height: 55px;
+  width: 55px;
+  font-size: 18px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transition: background-color 300ms ease-in-out;
+  -moz-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out; }
+  .btn:active, .btn-white:active, .btn-blue:active, .btn-green:active, .btn-red:active {
+    -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5); }
+  .btn:hover, .btn-white:hover, .btn-blue:hover, .btn-green:hover, .btn-red:hover, .btn:active, .btn-white:active, .btn-blue:active, .btn-green:active, .btn-red:active, .btn:focus, .btn-white:focus, .btn-blue:focus, .btn-green:focus, .btn-red:focus {
+    outline: none;
+    -webkit-transition: background-color 300ms ease-in-out;
+    -moz-transition: background-color 300ms ease-in-out;
+    transition: background-color 300ms ease-in-out; }
+
+.btn-white {
+  background-color: #FFF; }
+  .btn-white:hover {
+    background-color: #e6e6e6; }
+
+.btn-blue {
+  color: #FFF;
+  background-color: #48A4FF; }
+  .btn-blue:hover {
+    background-color: #158bff; }
+
+.btn-green {
+  color: #FFF;
+  background-color: #00D277; }
+  .btn-green:hover {
+    background-color: #009f5a; }
+
+.btn-red {
+  color: #FFF;
+  background-color: #FF625E; }
+  .btn-red:hover {
+    background-color: #ff302b; }

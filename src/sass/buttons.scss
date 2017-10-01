@@ -1,0 +1,75 @@
+@import "helper";
+
+$btn_white : #FFF;
+$btn_blue  : #48A4FF;
+$btn_green : #00D277;
+$btn_red   : #FF625E;
+
+.btn {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    border: none;
+    height: 55px;
+    width: 55px;
+    font-size: 18px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5);
+    -webkit-transition: background-color 300ms ease-in-out;
+    -moz-transition: background-color 300ms ease-in-out;
+    transition: background-color 300ms ease-in-out;
+
+    &:active {
+        -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,0.5);
+        -moz-box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,0.5);
+        box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,0.5);
+    }
+
+    @include hover-state {
+        outline: none;
+        -webkit-transition: background-color 300ms ease-in-out;
+        -moz-transition: background-color 300ms ease-in-out;
+        transition: background-color 300ms ease-in-out;
+    }
+}
+
+.btn-white {
+    @extend .btn;
+    background-color: $btn_white;
+
+    &:hover {
+        background-color: darken($btn_white, 10%);
+    }
+}
+
+.btn-blue {
+    @extend .btn;
+    color: $btn_white;
+    background-color: $btn_blue;
+
+    &:hover {
+        background-color: darken($btn_blue, 10%);
+    }
+}
+
+.btn-green {
+    @extend .btn;
+    color: $btn_white;
+    background-color: $btn_green;
+
+    &:hover {
+        background-color: darken($btn_green, 10%);
+    }
+}
+
+.btn-red {
+    @extend .btn;
+    color: $btn_white;
+    background-color: $btn_red;
+
+    &:hover {
+        background-color: darken($btn_red, 10%);
+    }
+}
